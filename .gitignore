@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# PDF source (not needed in deployed site)
+New_CV.pdf
+Profile Image.jpg
+
+# Agent and python cache
+.agents/
+__pycache__/
+*.pyc
+
