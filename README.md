@@ -1,53 +1,50 @@
-# 🚀 Utkarsh Kumar Rajput — Enterprise Product Portfolio
+# Henox Portfolio & Hypercord Showcase 🚀
 
-A high-performance, interactive portfolio designed to showcase enterprise product management, business analysis, and full-stack technical delivery. Engineered with a premium, glassmorphic UI, smooth scrolling, and dynamic data integrations.
+Personal developer portfolio and official web showcase for **[Henox](https://henox.me)** — Software Developer & Founder of **[Hypercord](https://hypercord.pro)**.
 
-🔗 **Live Site:** [utkarsh.ind.in](https://www.utkarsh.ind.in/)
+![Henox Portfolio](https://i.imgur.com/FcXRDWp.png)
 
----
+## ✨ Features
 
-## 💎 Key Features
+- ⚡ **Ultra High Performance (120+ FPS)**: Built with Vanilla HTML5, CSS3, and JavaScript ES6+ without heavy framework overhead.
+- 💜 **Neon Purple Cyberpunk Aesthetics**: Modern dark mode UI with glassmorphic bento cards, fluid ambient canvas particles, and custom neon purple cursor.
+- 🌐 **Real-Time Discord & Spotify Status**: Integrated Lanyard WebSocket API displaying live Discord online status and current Spotify song playback with dynamic progress tracking.
+- 🌍 **Bilingual Support (TR / EN)**: Instant client-side internationalization switcher without page reloads.
+- 📱 **100% Fully Mobile Responsive**: Seamless layout adaptation for desktop, tablet, and mobile devices (down to 320px width).
+- 🔊 **Tactile Audio Feedback**: Non-blocking Web Audio API synthesizer for subtle hover and click sound effects.
 
-### 1. 🧭 Recruiter Command Palette (Ctrl+K / Cmd+K)
-Recruiters and hiring managers can access a modern navigation overlay by typing `Ctrl+K` or `Cmd+K`. The command palette supports keyboard-friendly section jumping, direct case-study triggers, and quick action shortcuts.
+## 🛠️ Tech Stack
 
-### 2. 📊 Live Market Data Pipeline
-Features an automated, serverless pipeline powered by **GitHub Actions** and **Python (`yfinance` + `pandas`)**. Every hour, a scheduled cron task updates stock ticker data and writes it to `assets/market.json` to feed the live ticker on the page.
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+), GSAP (ScrollTrigger, Flip), Lucide Icons
+- **APIs & RPC**: Lanyard WebSocket API, Spotify Activity Parser
+- **Deployment & Hosting**: GitHub Pages ([henox77.github.io](https://henox77.github.io)), Custom Domain ([henox.me](https://henox.me))
 
-### 3. 💼 Bento Grid & Smooth Scroll
-Utilizes a modular, Apple/Google-inspired bento grid for the bio details, location widgets, local timezone clocks, and delivery metrics. Integrated with **Lenis** for smooth, native-feeling scrolling.
+## 🚀 Quick Start / Local Setup
 
-### 4. 📂 Staggered Transitions & Interactive Accordions
-* Character-reveal animations staggered via **GSAP** and **ScrollTrigger**.
-* Timeline timelines and case-study disclosures that adjust padding and reveal metrics dynamically.
-* Lock scroll on modal overlays to guarantee desktop/mobile layout stability.
+No build step or Node package installation required! You can run the application using any static file server:
 
----
-
-## 🛠️ Tech Stack & Architecture
-
-* **Frontend**: Vanilla HTML5 · CSS3 (Custom Variables, CSS Properties) · ES6+ JavaScript
-* **Animation & Motion**: GSAP (GreenSock Animation Platform) · ScrollTrigger · Lenis Smooth Scroll
-* **APIs & Data**: yfinance (Yahoo Finance Python API) · GitHub Actions (CI/CD Pipeline)
-* **Icons & Assets**: Lucide Icons · Formspree (Serverless Inquiry Triage)
-
----
-
-## 💻 Setup & Development
-
-Run the portfolio locally in seconds:
-
+### Option 1: Python HTTP Server (Recommended)
 ```bash
-# 1. Clone the repository
-git clone https://github.com/utkarshkr13/anti-gravity-portfolio.git
-cd anti-gravity-portfolio
+# Clone the repository
+git clone https://github.com/Henox77/Henox77.github.io.git
+cd Henox77.github.io
 
-# 2. Spin up a local development server
-# Python 3
-python -m http.server 8000
-
-# Node/npm (alternative)
-npx http-server -p 8000
+# Start local server
+python -m http.server 3000
 ```
+Open `http://localhost:3000` in your web browser.
 
-Once running, navigate to `http://localhost:8000` in your web browser.
+### Option 2: Live Server (VS Code)
+1. Open the project folder in VS Code.
+2. Install the **Live Server** extension.
+3. Click **"Go Live"** in the bottom status bar.
+
+## 🔗 Links
+
+- **Personal Domain**: [https://henox.me](https://henox.me)
+- **Hypercord Official Website**: [https://hypercord.pro](https://hypercord.pro)
+- **GitHub Profile**: [@Henox77](https://github.com/Henox77)
+- **Email Contact**: [contact@hypercord.pro](mailto:contact@hypercord.pro)
+
+---
+Developed with ❤️ by **Henox**
