@@ -1,18 +1,30 @@
-# OS files
+# Dependencies & Build
+node_modules/
+dist/
+build/
+
+# OS Files
 .DS_Store
 Thumbs.db
 Desktop.ini
+$RECYCLE.BIN/
 
-# IDE
+# IDE & Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+.project
+.settings/
 
-# PDF source (not needed in deployed site)
-New_CV.pdf
-Profile Image.jpg
+# Environment & Logs
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
 
-# Agent and python cache
-.agents/
+# Python & Caches
 __pycache__/
 *.pyc
-
+.cache/
